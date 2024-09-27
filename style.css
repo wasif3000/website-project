@@ -1,0 +1,154 @@
+/* // <uniquifier>: Use a unique and descriptive class name */
+* {
+
+  margin: auto;
+  padding: auto;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 394;
+  font-style: normal;
+  background: linear-gradient(to bottom right,#495C72, #2e363e);
+  box-sizing: border-box;
+}
+.wrapper {
+  position:fixed;
+  margin:auto;
+  width: 100vw;
+
+}
+#navbar {
+display: flex;
+justify-content: flex-end;
+background-color: #90baad;
+height: 60px;
+font-size: 25px;
+
+}
+#navbar a {
+  color: #5f3737;
+  text-decoration: none;
+}
+.menu-1 {
+    justify-self: flex-start;
+    position: absolute;
+    left:0;
+    top: 25%;
+}
+.menu-2 {
+  position: absolute;
+  right:10px;
+  top: 25%;
+}
+.menu-3 {
+  position: absolute;
+  right: 120px;;
+  top: 25%;
+}
+.header {
+  padding-top:10%;
+}
+
+h1 {
+  text-align: center;
+  align-content: center;
+  font-size: 50px;
+  padding: 30px;
+}
+h2,h3 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10%;
+} 
+
+.shop {
+  text-align: center;
+  padding: 40px;
+} 
+.intros {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.description {
+  text-align: center;
+  padding: 50px;
+} 
+.titledesc {
+  text-align: center;
+  font-size: 35px;
+  padding: 40px;
+}
+
+
+.footercontainer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #90baad;
+  height: 25px;
+  font-size: 20px;
+  color: #5f3737;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+#footercontainer a:visited {
+  color: #5f3737;
+  text-decoration: none;
+}
+
+#footercontainer a:visited {
+  color: #5f3737;
+  text-decoration: none;
+}
+
+#footercontainer a:visited {
+  color: #5f3737;
+  text-decoration: none;
+}
+#footercontainer a {
+  color: #5f3737;
+  text-decoration: none;
+}
+.intros {
+  font-size: 24px;
+  text-align: center;
+}
+
+#gallery1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.gallery-item {
+  text-align: center;
+  width: 200px;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+.desc {
+    margin-top: 10px;
+    font-size: 25px;
+    /* padding: 15px; */
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.socialicon{
+  color: #5f3737;
+}
